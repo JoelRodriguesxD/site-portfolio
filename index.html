@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
@@ -22,17 +23,17 @@
        <div class="info-hero">
           <h1 class="titulo-nav">Joel Rodrigues</h1>
           <div class="links-hero">
-            <a class="links-nav" href="#">Habilidades</a>
-            <a class="links-nav" href="#">Portfólio</a>
-            <a class="links-nav" href="#">Experiência</a>
+            <a onclick="onClickHabilidades()" class="links-nav" >Habilidades</a>
+            <a onclick="onClickPortfolio()" class="links-nav" >Portfólio</a>
+            <a onclick="onClickExperiencia()" class="links-nav" >Experiência</a>
           </div>
-          <button class="button-nav">CONTATO</button>
+          <button onclick="onClickContact()" class="button-nav" >CONTATO</button>
        </div>
        <div class="info-main">
         <div>
           <h1 class="titulo-hero">Olá, muito prazer! <br> Sou o Joel Rodrigues.</h1>
           <p class="description">Amante da programação e grande entusiasta pelo desenvolvimento web <br> com foco em React.js desde 2022.</p>
-          <button class="contact">ENTRAR EM CONTATO</button>
+          <button onclick="onClickContact()" class="contact" >ENTRAR EM CONTATO</button>
           <div id="hero-icons">
             <img src="./logo-github.png" alt="">
             <img src="./logo-instagram.png" alt="">
@@ -51,7 +52,7 @@
 
 
 
-      <section class="section-abilitys">
+      <section class="section-abilitys" id="section-abilities">
         <div class="section-abilitys-title" >
           <h2 class="title-abilitys">Habilidades que</h2>
           <h2 class="green-style">domino.</h2>
@@ -108,7 +109,7 @@
 
 
 
-      <section class="section-portfolio">
+      <section class="section-portfolio" id="section-portfolio">
         <div class="portfolio-cards">
           <h2 class="title-portfolio">Portfólio</h2>
           <h2 class="green-portfolio">de projetos.</h2>
@@ -142,7 +143,7 @@
 
 
 
-      <section class="section-experience">
+      <section class="section-experience" id="section-experiencia">
 
         <div class="section-experience-title" >
           <h2>Experiências</h2>
@@ -162,7 +163,7 @@
          <!-- Seção de contato-->
 
 
-      <section class="section-contact">
+      <section class="section-contact" id="section-contact">
         <div class="contact-title">
           <h2>Como posso</h2>
           <h2 class="green-contact">te ajudar?</h2>
