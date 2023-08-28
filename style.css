@@ -359,3 +359,75 @@ ul{
   margin-top: 4px;
   padding: 28px;
 }
+
+@media only screen and (max-device-width: 450px) {
+  
+.content-container{
+  width: 90vw;
+  max-width: 90vw;
+  margin-left: 30px;
+}
+
+.section-hero{
+  width: 100%;
+  
+
+  
+}
+
+.info-hero{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.titulo-nav{
+  display:flex;
+  flex-direction: row;
+  font-size: 16px;
+}
+
+.links-hero{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.info-main{
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.description{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.img-perfil{
+  width: 202px;
+  height: 202px;
+}
+.ability-cards-container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-content: center;
+  column-gap: 38px;
+}
+
+.section-portfolio-grid{
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-content: center;
+  column-gap: 38px;
+  margin-bottom: 30px;
+}
+
+}

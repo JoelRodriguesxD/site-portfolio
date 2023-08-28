@@ -23,26 +23,32 @@
        <div class="info-hero">
           <h1 class="titulo-nav">Joel Rodrigues</h1>
           <div class="links-hero">
-            <a onclick="onClickHabilidades()" class="links-nav" >Habilidades</a>
-            <a onclick="onClickPortfolio()" class="links-nav" >Portfólio</a>
-            <a onclick="onClickExperiencia()" class="links-nav" >Experiência</a>
+            <a onclick="onClickScrollTo('section-abilities')" class="links-nav" >Habilidades</a>
+            <a onclick="onClickScrollTo('section-portfolio')" class="links-nav" >Portfólio</a>
+            <a onclick="onClickScrollTo('section-experience')" class="links-nav" >Experiência</a>
           </div>
-          <button onclick="onClickContact()" class="button-nav" >CONTATO</button>
+          <button onclick="onClickScrollTo('section-contact')" class="button-nav" >CONTATO</button>
        </div>
        <div class="info-main">
         <div>
           <h1 class="titulo-hero">Olá, muito prazer! <br> Sou o Joel Rodrigues.</h1>
           <p class="description">Amante da programação e grande entusiasta pelo desenvolvimento web <br> com foco em React.js desde 2022.</p>
-          <button onclick="onClickContact()" class="contact" >ENTRAR EM CONTATO</button>
+          <button onclick="onClickScrollTo('section-contact')" class="contact" >ENTRAR EM CONTATO</button>
           <div id="hero-icons">
-            <img src="./logo-github.png" alt="">
-            <img src="./logo-instagram.png" alt="">
-            <img src="./Vector.png" alt="">
+            <a onclick="onClickLink('https://github.com/JoelRodrigues-dev')">
+              <img src="./imagens/logo-github.png" alt="">
+            </a>
+            <a onclick="onClickLink('https://github.com/JoelRodrigues-dev')">
+              <img src="./imagens/logo-instagram.png" alt="">
+            </a>
+            <a onclick="onClickLink('https://www.linkedin.com/in/joel-rodrigues-1a3669247/')">
+              <img src="./imagens/Vector.png" alt="">
+            </a>
           </div>
        </div>
     
         <div class="img-hero">
-        <img src="perfil2.png" alt="perfil Joel" class="img-perfil">
+        <img src="./imagens/perfil2.png" alt="perfil Joel" class="img-perfil">
        </div>
       </div>
       </section>
@@ -143,7 +149,7 @@
 
 
 
-      <section class="section-experience" id="section-experiencia">
+      <section class="section-experience" id="section-experience">
 
         <div class="section-experience-title" >
           <h2>Experiências</h2>
@@ -190,9 +196,15 @@
           <h1>Joel Rodrigues</h1>
         </div>
           <div class="section-footer-itens">
-          <img class="section-footer-img" src="./logo-github.png" alt="">
-          <img class="section-footer-img" src="./logo-instagram.png" alt="">
-          <img class="section-footer-img" src="./Vector.png" alt="">
+            <a onclick="onClickLink('https://github.com/JoelRodrigues-dev')">
+              <img class="section-footer-img" src="./logo-github.png" alt="">
+            </a>
+            <a onclick="onClickLink('https://github.com/JoelRodrigues-dev')">
+              <img class="section-footer-img" src="./logo-instagram.png" alt="">
+            </a>
+            <a onclick="onClickLink('https://www.linkedin.com/in/joel-rodrigues-1a3669247/')">
+              <img class="section-footer-img" src="./Vector.png" alt="">
+            </a>
           </div>
 
 

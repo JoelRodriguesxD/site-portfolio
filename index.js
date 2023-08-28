@@ -1,17 +1,8 @@
-function onClickHabilidades(){
-  document.getElementById("section-abilities").scrollIntoView();
+function onClickScrollTo (id) {
+  document.getElementById(id).scrollIntoView();
 }
 
 
-function onClickPortfolio(){
-  document.getElementById("section-portfolio").scrollIntoView();
+function onClickLink(url){
+  window.open(url);
 }
-
-function onClickExperiencia(){
-  document.getElementById("section-experiencia").scrollIntoView();
-}
-
-function onClickContact(){
-  document.getElementById("section-contact").scrollIntoView();
-}
-
